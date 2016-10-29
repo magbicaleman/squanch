@@ -19,8 +19,8 @@ const squanch = (...patterns) => {
 		for (let sequence of patterns) {
 			let [pattern, fn] = sequence;
 			switch(true) {
-				case (isNull(pattern, v)) :
 				case (isUndefined(pattern, v)) :
+				case (isNull(pattern, v)) :
 				case (isIdentical(pattern, v)) :
 				case (isPrimitiveWithValue(primitives, pattern, v)) :
 				case (callalbeTruthy(pattern, v)) :
