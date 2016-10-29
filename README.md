@@ -30,6 +30,7 @@ Feel free to open a pull request!
 - [ ] Write tests
 - [ ] Pass parameters to sequence function
 - [ ] Create default/wildcard
+- [ ] Display before and after examples
 
 ## Usage
 
